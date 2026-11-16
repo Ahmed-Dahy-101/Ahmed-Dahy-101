@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    background: #f9fbfe;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* centers content and limits its width */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #777;
+    font-size: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+.btn-pink {
+    background: #ff556e;
+}
+
+.btn-purple {
+    background: #a46bf5;
+}
+
+.btn-ghost {
+    border: 1px solid #a46bf5;
+    color: #555;
+}
+
+.btn.small {
+    padding: 6px 22px;
+    font-size: 11px;
+    margin: 0 8px 0 0;
+}
+
+.btn-outline {
+    border: 1px solid #ff556e;
+    color: #ff556e;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon-circle.small {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.purple-bg {
+    background: #e8dcfb;
+    color: #a46bf5;
+}
+
+.green-bg {
+    background: #d3f5ea;
+    color: #19ca94;
+}
+
+.pink-bg {
+    background: #fde0e5;
+    color: #ff556e;
+}
+
+.yellow-bg {
+    background: #fff0cf;
+    color: #ffb30f;
+}
+
+.blue-bg {
+    background: #dcf1fb;
+    color: #50b9e8;
+}
+
+.deco {
+    position: absolute;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 28px;
+}
+
+.header nav a {
+    color: #555;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.header nav a.btn-outline {
+    margin-left: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.hero .intro {
+    margin-top: 10px;
+}
+
+.hero-phone {
+    display: block;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+.hero .green-diamond {
+    width: 14px;
+    top: 85px;
+    left: 15%;
+}
+
+.hero .yellow-circle {
+    width: 30px;
+    top: 150px;
+    right: 8%;
+}
+
+.hero .blue-ring {
+    width: 70px;
+    top: 330px;
+    left: 10%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 0 60px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.two-columns {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.column {
+    flex: 1;
+    position: relative;
+}
+
+.image-side {
+    text-align: center;
+}
+
+.organize {
+    padding: 60px 0;
+}
+
+.organize h2 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.organize p,
+.grey-section p {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.dot-list {
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+.dot-list li::before {
+    content: "\25AA\00a0";
+    color: #333;
+}
+
+.red-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff556e;
+    top: 30px;
+    left: 0;
+}
+
+.grey-section {
+    background: #f1f5fa;
+    padding: 70px 0;
+}
+
+.tabs {
+    margin-bottom: 25px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #777;
+    border-radius: 3px;
+}
+
+.tab.active {
+    background: #a46bf5;
+    color: #fff;
+}
+
+.check-list {
+    margin-bottom: 25px;
+}
+
+.check-list li {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 12px;
+    padding-left: 22px;
+    position: relative;
+}
+
+.check-list li::before {
+    content: "\2611";
+    color: #19ca94;
+    position: absolute;
+    left: 0;
+}
+
+.green-diamond-2 {
+    width: 28px;
+    right: 0;
+    top: 40%;
+}
+
+.features {
+    padding: 70px 0;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.features-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.feature-col {
+    flex: 1;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    font-size: 16px;
+}
+
+.feature p {
+    font-size: 12px;
+    color: #888;
+}
+
+.feature-col.left .feature {
+    text-align: right;
+}
+
+.feature-col.right .feature {
+    text-align: left;
+}
+
+.feature-phone {
+    width: 230px;
+    flex-shrink: 0;
+}
